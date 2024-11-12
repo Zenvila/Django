@@ -7,6 +7,8 @@ class Question(models.Model):
     
     def _str_(self):
         return self.question_text
+    
+    
     class Choice(models.Models ):
         questions = models.ForeignKey(Question,on_delete=models.CASCADE)
         choice_text =models.IntegerField(default=0)
