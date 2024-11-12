@@ -13,3 +13,5 @@ Static Foler:
 
 Templates Folder: 
     template folder contains all the templdate.
+
+     
